@@ -309,7 +309,7 @@ class ResultPage extends StatelessWidget {
           const Center(
             child: Text(
               "Your Results",
-              style: NumberTextStyle,
+              style: numberTextStyle,
             ),
           ),
           const SizedBox(
@@ -330,22 +330,22 @@ class ResultPage extends StatelessWidget {
                     if (bmi < 18.5)
                       const Text(
                         "Underweight",
-                        style: NumberTextStyle,
+                        style: numberTextStyle,
                       ),
                     if (bmi >= 18.5 && bmi <= 24.9)
                       const Text(
                         "Normal Weight",
-                        style: NumberTextStyle,
+                        style: numberTextStyle,
                       ),
                     if (bmi >= 25 && bmi <= 29.9)
                       const Text(
                         "Overweight",
-                        style: NumberTextStyle,
+                        style: numberTextStyle,
                       ),
                     if (bmi >= 30)
                       const Text(
                         "Obesity",
-                        style: NumberTextStyle,
+                        style: numberTextStyle,
                       ),
                   ],
                 ),
